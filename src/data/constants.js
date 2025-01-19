@@ -9,7 +9,7 @@ export const Bio = {
     "I am a driven and adaptable individual with a passion for learning and delivering high-quality results. With a positive attitude and a growth mindset, I am always eager to take on new challenges, striving to make meaningful contributions and achieve success.",
   github: "https://github.com/monnie26",
   resume:
-    "https://drive.google.com/file/d/1wtClgOQy60HvsKldHesxvbhaIvxA13ZB/view?usp=drive_link",
+    "https://drive.google.com/file/d/1sw8HoZdK8I7ej9lusgiD_eOqCfHp5-Mb/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/monnie-sharma/",
 };
 

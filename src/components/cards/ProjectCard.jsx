@@ -89,7 +89,7 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 const Button = styled.a`
-  color: ${({ theme }) => theme.primary};
+  color: rgb(37, 134, 179);
   text-decoration: none;
   font-weight: 600;
   text-align: center;

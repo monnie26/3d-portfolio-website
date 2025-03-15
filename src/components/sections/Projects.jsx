@@ -50,8 +50,8 @@ const Desc = styled.div`
 
 const ToggleButtonGroup = styled.div`
   display: flex;
-  border: 1.5px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
+  border: 1.5px solid rgb(12, 106, 229);
+  color: rgb(84, 130, 190);
   font-size: 16px;
   border-radius: 12px;
 font-weight 500;
@@ -79,7 +79,7 @@ const ToggleButton = styled.div`
 `;
 const Divider = styled.div`
   width: 1.5px;
-  background: ${({ theme }) => theme.primary};
+  background: rgb(48, 118, 209);
 `;
 
 const CardContainer = styled.div`

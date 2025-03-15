@@ -110,7 +110,7 @@ const TextLoop = styled.div`
 
 const Span = styled.div`
   cursor: pointer;
-  color: ${({ theme }) => theme.primary};
+  color: rgb(84, 130, 190);
 `;
 
 const SubTitle = styled.div`
@@ -141,21 +141,21 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsla(271, 100%, 50%, 1);
+  background: rgb(22, 88, 95);
   background: linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+    rgb(40, 112, 116) 0%,
+    rgb(29, 94, 110) 100%
   );
   background: -moz-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+    rgb(49, 148, 181) 0%,
+    rgb(14, 110, 135) 100%
   );
   background: -webkit-linear-gradient(
     225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
+    rgb(26, 187, 227) 0%,
+    rgb(28, 78, 143) 100%
   );
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
@@ -183,7 +183,7 @@ const Img = styled.img`
   height: 100%;
   max-width: 350px;
   max-height: 350px;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 2px solid none;
 
   @media (max-width: 640px) {
     max-width: 280px;

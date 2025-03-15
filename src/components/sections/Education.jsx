@@ -6,6 +6,7 @@ import { education } from "../../data/constants";
 import EducationCard from "../cards/EducationCard";
 
 const Container = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

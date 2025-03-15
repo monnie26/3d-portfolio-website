@@ -73,8 +73,8 @@ const ButtonContainer = styled.div`
 `;
 
 const GithubButton = styled.a`
-  border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
+  border: 1px solid rgb(84, 130, 190);
+  color: rgb(84, 130, 190);
   justify-content: center;
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ const GithubButton = styled.a`
   transition: all 0.6s ease-in-out;
   text-decoration: none;
   &:hover {
-    background: ${({ theme }) => theme.primary};
+    background: rgb(84, 130, 190);
     color: ${({ theme }) => theme.text_primary};
   }
 `;
@@ -95,7 +95,7 @@ const MobileIcon = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.text_primary};
+  color: rgb(84, 130, 190);
   display: none;
   @media screen and (max-width: 768px) {
     display: block;

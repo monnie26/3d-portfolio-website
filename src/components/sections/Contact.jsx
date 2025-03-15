@@ -92,7 +92,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
+  background: rgb(60, 112, 179);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;

@@ -29,7 +29,7 @@ const FooterWrapper = styled.div`
 const Logo = styled.div`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: rgb(50, 173, 204);
 `;
 const Nav = styled.ul`
   width: 100%;

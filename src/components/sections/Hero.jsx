@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/HeroImage.jpg";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
   headContainerAnimation,
@@ -227,9 +226,7 @@ const Hero = () => {
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
-                <Tilt>
                   <Img src={HeroImg} alt="Monnie Sharma" />
-                </Tilt>
               </motion.div>
             </HeroRightContainer>
           </HeroInnerContainer>
